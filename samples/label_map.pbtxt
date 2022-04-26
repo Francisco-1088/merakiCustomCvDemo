@@ -1,0 +1,16 @@
+item {
+    id: 1
+    name: 'meraki_mr'
+}
+item {
+    id: 2
+    name: 'meraki_mt'
+}
+item {
+    id: 3
+    name: 'meraki_mv'
+}
+item {
+    id: 4
+    name: 'meraki_mg'
+}

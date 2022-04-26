@@ -7,11 +7,11 @@ Capture, Train, Evaluate, Deploy and Demo a Custom CV Model for use with Cisco M
 
 [Introduction](#Introduction)
 [Prerequisites](#Prerequisites)
-[1. Capturing and preparing the dataset](#1. Capturing and preparing the dataset)
-[2. Training on Google Colab](#2. Training on Google Colab)
-[3. Evaluating on Google Colab](#3. Evaluating on Google Colab)
-[4. Exporting in TFLite format and deploying on camera](#4. Exporting in TFLite format and deploying on camera)
-[5. Demoing](#5. Demoing)
+[Capturing and preparing the dataset](#1. Capturing and preparing the dataset)
+[Training on Google Colab](#2. Training on Google Colab)
+[Evaluating on Google Colab](#3. Evaluating on Google Colab)
+[Exporting in TFLite format and deploying on camera](#4. Exporting in TFLite format and deploying on camera)
+[Demoing](#5. Demoing)
 
 # Introduction
 

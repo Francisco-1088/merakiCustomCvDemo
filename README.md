@@ -3,7 +3,7 @@ Capture, Train, Evaluate, Deploy and Demo a Custom CV Model for use with Cisco M
 
 ![image alt text](docImages/mvCustomCvDemo.png)
 
-##### Table of Contents
+#Table of Contents
 
 [Introduction](#intro)
 [Prerequisites](#prereq)
@@ -14,7 +14,8 @@ Capture, Train, Evaluate, Deploy and Demo a Custom CV Model for use with Cisco M
 [Demoing](#demo)
 
 <a name="intro"/>
-## Introduction
+
+# Introduction
 
 This tutorial guides you through the process of:
 
@@ -25,6 +26,7 @@ This tutorial guides you through the process of:
 5. Using a simple app with TKinter to demo your model
 
 <a name="prereq"/>
+
 ## Prerequisites
 
 1. Cisco Meraki MV 2nd Generation Camera (MV2, MV12, MV32, MV22, MV72)
@@ -33,16 +35,21 @@ This tutorial guides you through the process of:
 4. A laptop with a working installation of Python 3 and Docker
 
 <a name="capture"/>
+
 ## Capturing and preparing the dataset
 
 <a name="train"/>
+
 ## Training on Google Colab
 
 <a name="eval"/>
+
 ## Evaluating on Google Colab
 
 <a name="export"/>
+
 ## Exporting in TFLite format and deploying on camera
 
 <a name="demo"/>
+
 ## Demoing

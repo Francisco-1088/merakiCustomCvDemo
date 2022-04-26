@@ -22,7 +22,7 @@ for line in lines:
         new_lines.append(line)
 
 if len(new_lines)%2 == 0:
-    keys = new_lines[::2]
+    keys = [str(int(x)-1) for x in new_lines[::2]]
     values = new_lines[1::2]
     classes = dict(zip(keys, values))
     print(classes)
@@ -30,11 +30,7 @@ if len(new_lines)%2 == 0:
 # Parameters
 max_classes = config.max_classes
 mqtt_server = config.mqtt_server
-det_threshold = config.app_det_threshold
-
-#Have to run these in computer
-#docker pull ecplipse-mosquitto:1.6
-#docker run -p 1883:1883 eclipse-mosquitto:1.6
+det_threshold = config.det_threshold
 
 # Set up GUI
 window = Tk()

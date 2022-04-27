@@ -157,6 +157,8 @@ For demoing, we will be using the `mvCustomCvDashboard.py` script.
 1. Make sure you have a working Docker installation in your computer and that you have IP connectivity to your camera
 2. Run `docker pull ecplipse-mosquitto:1.6` from your terminal, this fetches the image for the Eclipse Mosquitto broker we will be using to receive the messages from our camera
 3. Run `docker run -p 1883:1883 eclipse-mosquitto:1.6` from your terminal, this starts the mosquitto broker in your computer, and you should see some console messages in your terminal
+![image alt text](docImages/docker.png)
+
 4. Go into your Meraki Dashboard and back to the camera you were working on
 5. Add a new MQTT Broker from the `Settings - Sense` tab with the IP address of your computer and leave the security settings blank. NOTE: In a production environment, it is highly recommended you use TLS and a user/password to authenticate your clients, but this is out of the scope of this document.
 6. Select the MQTT Broker you just added as your camera's broker and click `Save`

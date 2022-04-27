@@ -86,6 +86,3 @@ for image in train_filenames:
 
 for image in test_filenames:
     os.rename(f"{path}/{image}",f"{path}/test/{image}")
-
-# Zip images folder for uploading
-shutil.make_archive('./images', 'zip', path)

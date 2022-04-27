@@ -173,4 +173,4 @@ Add the `label_map.pbtxt` file you downloaded before to your working directory (
 2. Show a small Tkinter-based GUI that will show the counts of every object your camera recognizes
 3. The GUI will only show the first `max_classes` labels your camera identifies, if your model can recognize more labels than this they won't be displayed in the GUI
 
-![image alt text](docImages/demo.png)
+![image alt text](docImages/app_detections.png)

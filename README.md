@@ -99,6 +99,17 @@ Once you're done labeling, zip the whole `images` folder (including the folder i
 
 ## Training on Google Colab
 
+The following sections are performed in Google Colab. Colab is a web based environment where you have access to compute and GPU resources, and can run scripts in the form of Notebooks on demand. It's a nice free alternative for training Machine Learning models without purchasing devices with GPUs or spending a lot on environments like AWS, Google Cloud or Azure using their machine learning resources, and it should work well for prototyping solutions in general. For more professional-grade use cases, you will likely want to leverage paid offerings, or a Meraki ecosystem partner like Cogniac: https://apps.meraki.io/details/cogniac-packaging-kitting
+
+1. Go to https://colab.research.google.com
+2. Click on `File`, and select `Upload notebook`
+3. Add the `Meraki_TFLite_Demo.ipynb` file from the github repo and click `Open`
+
+Follow the instructions in the Colab Notebook.
+
+
+![image alt text](docImages/training.png)
+
 <a name="eval"/>
 
 ## Evaluating on Google Colab

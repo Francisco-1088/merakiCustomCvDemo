@@ -50,6 +50,8 @@ In the `config.py` file:
 4. `dataset_name` is how you want to name your dataset. I called mine `meraki_devices`
 5. `train_test_split` is the percentage of images in the dataset that will be used for training, while the remaining ones will be used for testing
 
+In line `12` of the `cvSnapper.py` script, change the `win_or_mac` variable to `mac` or `win` depending on your environment.
+
 Also, run `pip install -r requirements.txt` to install the required Python libraries before proceeding.
 
 **How large does my dataset need to be?**
@@ -79,7 +81,9 @@ images
 
 ### Labeling the dataset
 
+For labeling our dataset, we will use an open source tool called LabelImag that you can find in this Github repo: https://github.com/tzutalin/labelImg
 
+Follow the installation instructions for your operating system
 
 <a name="train"/>
 

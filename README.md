@@ -3,15 +3,22 @@ Capture, Train, Evaluate, Deploy and Demo a Custom CV Model for use with Cisco M
 
 ![image alt text](docImages/mvCustomCvDemo.png)
 
-#Table of Contents
+# Table of Contents
 
 [Introduction](#intro)
+
 [Prerequisites](#prereq)
+
 [Capturing and preparing the dataset](#capture)
+
 [Training on Google Colab](#train)
+
 [Evaluating on Google Colab](#eval)
+
 [Exporting in TFLite format and deploying on camera](#export)
+
 [Demoing](#demo)
+
 
 <a name="intro"/>
 

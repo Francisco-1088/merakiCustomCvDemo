@@ -19,6 +19,8 @@ Capture, Train, Evaluate, Deploy and Demo a Custom CV Model for use with Cisco M
 
 [Demoing](#demo)
 
+[Sources](#sources)
+
 
 <a name="intro"/>
 
@@ -183,3 +185,12 @@ Add the `label_map.pbtxt` file you downloaded before to your working directory (
 3. The GUI will only show the first `max_classes` labels your camera identifies, if your model can recognize more labels than this they won't be displayed in the GUI
 
 ![image alt text](docImages/app_detections.png)
+
+<a name="sources"/>
+
+## Sources
+
+1. Kapkar, N. (2021, September 29). TensorFlow 2 object detection API with Google Colab. Medium. Retrieved April 27, 2022, from https://medium.com/swlh/tensorflow-2-object-detection-api-with-google-colab-b2af171e81cc 
+2. Renotte, N. (2021, April 9). Tensorflow object detection in 5 hours with Python | full course with 3 projects. YouTube. Retrieved April 27, 2022, from https://www.youtube.com/watch?v=yqkISICHH-U 
+3. Kapkar, N. (2021, September 29). TensorFlow 2 object detection API with Google Colab. Medium. Retrieved April 27, 2022, from https://medium.com/swlh/tensorflow-2-object-detection-api-with-google-colab-b2af171e81cc 
+4. Cisco Meraki. (2022, March 29). MV Sense Custom Computer Vision. Cisco Meraki. Retrieved April 27, 2022, from https://documentation.meraki.com/MV/Video_Analytics/MV_Sense_Custom_Computer_Vision 

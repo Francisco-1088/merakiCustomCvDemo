@@ -53,7 +53,7 @@ The first script we will use is `cvSnapper.py`. This script will use a Meraki ca
 In the `config.py` file:
 1. `api_key` is your Meraki Dashboard API Key. If you don't know how to generate one, follow the instructions in this article: https://documentation.meraki.com/General_Administration/Other_Topics/Cisco_Meraki_Dashboard_API
 2. `camera_serial`is the serial number of the camera you will be working with
-3. `desired_snaps` is the number of snapshots you wish to take to construct your dataset. The more the better, especially if you want to be able to recognize many different classes, but I managed to obtain 75% accuracy with around 100 images
+3. `desired_snaps` is the number of snapshots you wish to take to construct your dataset. The more the better, especially if you want to be able to recognize many different classes, but I managed to obtain decent accuracy with around 100 images and 4 classes total.
 4. `dataset_name` is how you want to name your dataset. I called mine `meraki_devices`
 5. `train_test_split` is the percentage of images in the dataset that will be used for training, while the remaining ones will be used for testing
 

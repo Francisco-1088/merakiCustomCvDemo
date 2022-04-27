@@ -83,7 +83,17 @@ images
 
 For labeling our dataset, we will use an open source tool called LabelImag that you can find in this Github repo: https://github.com/tzutalin/labelImg
 
-Follow the installation instructions for your operating system
+Follow the installation instructions for your operating system, and run LabelImg.
+
+1. Click on Open Dir, and navigate to your /images/train folder
+2. For every image, draw a bounding box around the object you wish to identify, and give it a class name. This class name MUST be consistent across ALL of the images depicting this object. If an image has more than one object you wish to identify, draw bounding boxes around each of them, and assign a label to each bounding box. Keep your labels consistent!
+3. After you draw a bounding box and assign a label, click the button under the `Save` button until it says `PascalVOC`. After this, click Save, which will generate a `.xml` file with the same name as the image in the folder
+4. Do this for ALL of your training images
+5. After you finish with all of the training images, saving each one, click `Open Dir` and select the `/images/test` folder, and repeat the exact same process
+
+![image alt text](docImages/labeling.png)
+
+Once you're done labeling, zip the whole `images` folder (including the folder images, not just train and test) into a .zip file.
 
 <a name="train"/>
 

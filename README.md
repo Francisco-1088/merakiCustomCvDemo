@@ -69,9 +69,9 @@ When you're ready and you have positioned the camera you wish to use in the desi
 
 1. It will create a directory structure in the form:
 ```
-images
-|_train
-|_test
+images/
+|_train/
+|_test/
 ```
 2. It will prompt you with `Press Enter to capture snapshot:`, and after you press Enter (with no other input), it will generate a Snapshot from the camera you chose. It can be useful to have a Meraki Dashboard video stream of the camera open side by side to know what the camera is looking at before you request the snapshot and make any necessary adjustments.
 3. It will then ask you if you want to `Keep image? (Y/N):` . If you answer `Y`, it will increase the snap counter, and save the image as `snap_{snap_count}.jpg` in the `images` folder. 

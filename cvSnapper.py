@@ -63,9 +63,9 @@ while snap_count < desired_snaps:
       if cont =='Y':
         continue
       elif cont =='N':
-        break
+        exit()
   else:
-    break
+    exit()
 
 # Split captured images into train, test sets
 f = []

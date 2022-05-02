@@ -90,7 +90,7 @@ images/
 
 ### Labeling the dataset
 
-For labeling our dataset, we will use an open source tool called LabelImag that you can find in this Github repo: https://github.com/tzutalin/labelImg
+For labeling our dataset, we will use an open source tool called LabelImg that you can find in this Github repo: https://github.com/tzutalin/labelImg
 
 Follow the installation instructions for your operating system, and run LabelImg.
 

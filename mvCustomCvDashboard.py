@@ -72,7 +72,7 @@ def on_connect(client, userdata, flags, rc):
     The callback for when the client receives a CONNACK response from the server.
     """
     print("Connected with result code " + str(rc))
-    client.subscribe("/merakimv/Q2NV-47D4-38T2/custom_analytics/#")
+    client.subscribe(f"/merakimv/{config.camera_serial}/custom_analytics/#")
 
 
 def on_disconnect(client, userdata, flags, rc=0):

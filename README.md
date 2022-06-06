@@ -164,7 +164,7 @@ After verifying your model has the appropriate inputs and outputs on Netron:
 For demoing, we will be using the `mvCustomCvDashboard.py` script.
 
 1. Make sure you have a working Docker installation in your computer and that you have IP connectivity to your camera
-2. Run `docker pull ecplipse-mosquitto:1.6` from your terminal, this fetches the image for the Eclipse Mosquitto broker we will be using to receive the messages from our camera
+2. Run `docker pull eclipse-mosquitto:1.6` from your terminal, this fetches the image for the Eclipse Mosquitto broker we will be using to receive the messages from our camera
 3. Run `docker run -p 1883:1883 eclipse-mosquitto:1.6` from your terminal, this starts the mosquitto broker in your computer, and you should see some console messages in your terminal
 ![image alt text](docImages/docker.png)
 

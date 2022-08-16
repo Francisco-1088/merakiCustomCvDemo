@@ -22,7 +22,7 @@ Capture, Train, Evaluate, Deploy and Demo a Custom CV Model for use with Cisco M
 [Sources](#sources)
 
 
-<a name="intro"/>
+<a name="intro"></a>
 
 # Introduction
 
@@ -34,7 +34,7 @@ This tutorial guides you through the process of:
 4. Exporting the model to TFLite and deploying it on your camera
 5. Using a simple app with TKinter to demo your model
 
-<a name="prereq"/>
+<a name="prereq"></a>
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ This tutorial guides you through the process of:
 4. A laptop with a working installation of Python 3 and Docker
 5. A working installation of LabelImg
 
-<a name="capture"/>
+<a name="capture"></a>
 
 ## Capturing and preparing the dataset
 
@@ -104,7 +104,7 @@ Follow the installation instructions for your operating system, and run LabelImg
 
 Once you're done labeling, zip the whole `images` folder (including the folder images, not just train and test) into a .zip file.
 
-<a name="train"/>
+<a name="train"></a>
 
 ## Training on Google Colab
 
@@ -118,7 +118,7 @@ Follow the instructions in the Colab Notebook.
 
 ![image alt text](docImages/tensorboard_training.png)
 
-<a name="eval"/>
+<a name="eval"></a>
 
 ## Evaluating on Google Colab
 
@@ -126,7 +126,7 @@ Follow the instructions in the Colab Notebook as specified in the previous secti
 
 ![image alt text](docImages/tensorboard_evaluating.png)
 
-<a name="export"/>
+<a name="export"></a>
 
 ## Exporting in TFLite format and deploying on camera
 
@@ -157,7 +157,7 @@ After verifying your model has the appropriate inputs and outputs on Netron:
 
 ![image alt text](docImages/deploy.png)
 
-<a name="demo"/>
+<a name="demo"></a>
 
 ## Demoing
 
@@ -186,7 +186,7 @@ Add the `label_map.pbtxt` file you downloaded before to your working directory (
 
 ![image alt text](docImages/app_detections.png)
 
-<a name="sources"/>
+<a name="sources"></a>
 
 ## Sources
 
